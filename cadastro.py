@@ -7,7 +7,7 @@ def exibir():
     #janela
     inform = Toplevel()
     inform.geometry("500x400")
-    inform.iconbitmap("pyico.ico") 
+    #inform.iconbitmap("pyico.ico") 
     inform.title("Informações sobre os filmes")
     inform.configure(bg = "gray10")
     inform.resizable(width = False, height = False)
@@ -56,7 +56,7 @@ def bd_film():
     #janela
     jancad = Toplevel()
     jancad.geometry("500x400")
-    jancad.iconbitmap("pyico.ico")
+    #jancad.iconbitmap("pyico.ico")
     jancad.title("Filmes de Cadastrados")
     jancad.configure(bg = "gray10")
     jancad.resizable(width = False, height = False)
@@ -171,7 +171,7 @@ def verificar(): #função do botão login
         #janela de cadastro
         janelap = Tk()
         janelap.geometry("600x600")
-        janelap.iconbitmap("pyico.ico")
+        #janelap.iconbitmap("pyico.ico")
         janelap.title("Cadastro de Filmes")
         janelap.resizable(width = False, height = False)
         
@@ -250,7 +250,7 @@ def verificar(): #função do botão login
 
 janela = Tk() #janela de login
 janela.geometry("400x300") #dimensões da tela de login
-janela.iconbitmap("pyico.ico")
+#janela.iconbitmap("pyico.ico")
 janela.title("Login") #título da janela
 janela.resizable(width = False, height = False) #sem redimensionamento (tamanho fixo) 
 
@@ -293,6 +293,5 @@ BtLogin = Button(LadoDireito, text = "Login", font = ("Arial", 14), bg = "golden
 BtLogin.place(x = 15, y = 210)
 
 mainloop()
-
 
 
