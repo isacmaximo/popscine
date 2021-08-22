@@ -224,7 +224,8 @@ def verificar(): #função do botão login
 
         Options = Label(LDireito, text = "Opções:", font = ("Arial", 14), bg = "grey15", fg = "white")
         Options.place(x = 50, y = 405)
-
+        
+        #possuem valores inteiros
         valorLEG = IntVar()
         valorDUB = IntVar()
 
