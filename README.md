@@ -1,2 +1,2 @@
-# pyfilmes
-mini sistema de cadastro feito com tkinter e banco de dados txt
+# pop's cine
+mini sistema de armazenamento de informações sobre filmes feito com tkinter salvo em txt
